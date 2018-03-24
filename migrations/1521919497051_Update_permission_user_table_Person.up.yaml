@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - id
+      - firstName
+      - middleName
+      - lastName
+      filter: {}
+    role: user
+    table: Person
+  type: create_select_permission
